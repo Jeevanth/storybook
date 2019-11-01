@@ -1,11 +1,12 @@
+
 const express = require('express');
 const mongoose = require('mongoose');
 
 
 const app = express();
 
-app.get('/',(res,req)=>{
-   res.setEncoding('IT WORKS');
+app.get('/',(req,res)=>{
+   res.send('IT WORKS');
 });
 
 const port = process.env.PORT || 5000;

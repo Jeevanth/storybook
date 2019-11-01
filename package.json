@@ -2,7 +2,7 @@
   "name": "storybook",
   "version": "1.0.0",
   "description": "App to share Public or wright prvate story",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
